@@ -79,7 +79,7 @@ def checkcol(board):
 def checkdiag(board):
     global winner
     if board[0] == board[4] == board[8] and board[0] != ' ':
-        winner = board[6]
+        winner = board[0]
         return True
     elif board[2] == board[4] == board[6] and board[6] != ' ':
         winner = board[6]
